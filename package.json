@@ -1,0 +1,19 @@
+{
+  "name": "popover-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest",
+  "start": "open src/index.html",
+  "build": "webpack --mode production",
+  "deploy": "npx gh-pages -d dist"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^23.10.4"
+  }
+}
